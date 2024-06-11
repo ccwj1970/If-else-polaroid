@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		326E91742C18494C00AAB05F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326E91732C18494C00AAB05F /* AppDelegate.swift */; };
+		326E91762C18494C00AAB05F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326E91752C18494C00AAB05F /* SceneDelegate.swift */; };
+		326E91782C18494C00AAB05F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326E91772C18494C00AAB05F /* ViewController.swift */; };
+		326E917B2C18494C00AAB05F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326E91792C18494C00AAB05F /* Main.storyboard */; };
+		326E917D2C18494E00AAB05F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326E917C2C18494E00AAB05F /* Assets.xcassets */; };
+		326E91802C18494E00AAB05F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326E917E2C18494E00AAB05F /* LaunchScreen.storyboard */; };
+		326E918B2C18494E00AAB05F /* If_else_polaroidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326E918A2C18494E00AAB05F /* If_else_polaroidTests.swift */; };
+		326E91952C18494E00AAB05F /* If_else_polaroidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326E91942C18494E00AAB05F /* If_else_polaroidUITests.swift */; };
+		326E91972C18494E00AAB05F /* If_else_polaroidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326E91962C18494E00AAB05F /* If_else_polaroidUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		326E91872C18494E00AAB05F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 326E91682C18494C00AAB05F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 326E916F2C18494C00AAB05F;
+			remoteInfo = "If-else-polaroid";
+		};
+		326E91912C18494E00AAB05F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 326E91682C18494C00AAB05F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 326E916F2C18494C00AAB05F;
+			remoteInfo = "If-else-polaroid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		326E91702C18494C00AAB05F /* If-else-polaroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "If-else-polaroid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		326E91732C18494C00AAB05F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		326E91752C18494C00AAB05F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		326E91772C18494C00AAB05F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		326E917A2C18494C00AAB05F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		326E917C2C18494E00AAB05F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		326E917F2C18494E00AAB05F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		326E91812C18494E00AAB05F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		326E91862C18494E00AAB05F /* If-else-polaroidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "If-else-polaroidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		326E918A2C18494E00AAB05F /* If_else_polaroidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = If_else_polaroidTests.swift; sourceTree = "<group>"; };
+		326E91902C18494E00AAB05F /* If-else-polaroidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "If-else-polaroidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		326E91942C18494E00AAB05F /* If_else_polaroidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = If_else_polaroidUITests.swift; sourceTree = "<group>"; };
+		326E91962C18494E00AAB05F /* If_else_polaroidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = If_else_polaroidUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		326E916D2C18494C00AAB05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326E91832C18494E00AAB05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326E918D2C18494E00AAB05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		326E91672C18494C00AAB05F = {
+			isa = PBXGroup;
+			children = (
+				326E91722C18494C00AAB05F /* If-else-polaroid */,
+				326E91892C18494E00AAB05F /* If-else-polaroidTests */,
+				326E91932C18494E00AAB05F /* If-else-polaroidUITests */,
+				326E91712C18494C00AAB05F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		326E91712C18494C00AAB05F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				326E91702C18494C00AAB05F /* If-else-polaroid.app */,
+				326E91862C18494E00AAB05F /* If-else-polaroidTests.xctest */,
+				326E91902C18494E00AAB05F /* If-else-polaroidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		326E91722C18494C00AAB05F /* If-else-polaroid */ = {
+			isa = PBXGroup;
+			children = (
+				326E91732C18494C00AAB05F /* AppDelegate.swift */,
+				326E91752C18494C00AAB05F /* SceneDelegate.swift */,
+				326E91772C18494C00AAB05F /* ViewController.swift */,
+				326E91792C18494C00AAB05F /* Main.storyboard */,
+				326E917C2C18494E00AAB05F /* Assets.xcassets */,
+				326E917E2C18494E00AAB05F /* LaunchScreen.storyboard */,
+				326E91812C18494E00AAB05F /* Info.plist */,
+			);
+			path = "If-else-polaroid";
+			sourceTree = "<group>";
+		};
+		326E91892C18494E00AAB05F /* If-else-polaroidTests */ = {
+			isa = PBXGroup;
+			children = (
+				326E918A2C18494E00AAB05F /* If_else_polaroidTests.swift */,
+			);
+			path = "If-else-polaroidTests";
+			sourceTree = "<group>";
+		};
+		326E91932C18494E00AAB05F /* If-else-polaroidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				326E91942C18494E00AAB05F /* If_else_polaroidUITests.swift */,
+				326E91962C18494E00AAB05F /* If_else_polaroidUITestsLaunchTests.swift */,
+			);
+			path = "If-else-polaroidUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		326E916F2C18494C00AAB05F /* If-else-polaroid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326E919A2C18494E00AAB05F /* Build configuration list for PBXNativeTarget "If-else-polaroid" */;
+			buildPhases = (
+				326E916C2C18494C00AAB05F /* Sources */,
+				326E916D2C18494C00AAB05F /* Frameworks */,
+				326E916E2C18494C00AAB05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "If-else-polaroid";
+			productName = "If-else-polaroid";
+			productReference = 326E91702C18494C00AAB05F /* If-else-polaroid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		326E91852C18494E00AAB05F /* If-else-polaroidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326E919D2C18494E00AAB05F /* Build configuration list for PBXNativeTarget "If-else-polaroidTests" */;
+			buildPhases = (
+				326E91822C18494E00AAB05F /* Sources */,
+				326E91832C18494E00AAB05F /* Frameworks */,
+				326E91842C18494E00AAB05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				326E91882C18494E00AAB05F /* PBXTargetDependency */,
+			);
+			name = "If-else-polaroidTests";
+			productName = "If-else-polaroidTests";
+			productReference = 326E91862C18494E00AAB05F /* If-else-polaroidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		326E918F2C18494E00AAB05F /* If-else-polaroidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326E91A02C18494E00AAB05F /* Build configuration list for PBXNativeTarget "If-else-polaroidUITests" */;
+			buildPhases = (
+				326E918C2C18494E00AAB05F /* Sources */,
+				326E918D2C18494E00AAB05F /* Frameworks */,
+				326E918E2C18494E00AAB05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				326E91922C18494E00AAB05F /* PBXTargetDependency */,
+			);
+			name = "If-else-polaroidUITests";
+			productName = "If-else-polaroidUITests";
+			productReference = 326E91902C18494E00AAB05F /* If-else-polaroidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		326E91682C18494C00AAB05F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					326E916F2C18494C00AAB05F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					326E91852C18494E00AAB05F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 326E916F2C18494C00AAB05F;
+					};
+					326E918F2C18494E00AAB05F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 326E916F2C18494C00AAB05F;
+					};
+				};
+			};
+			buildConfigurationList = 326E916B2C18494C00AAB05F /* Build configuration list for PBXProject "If-else-polaroid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 326E91672C18494C00AAB05F;
+			productRefGroup = 326E91712C18494C00AAB05F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				326E916F2C18494C00AAB05F /* If-else-polaroid */,
+				326E91852C18494E00AAB05F /* If-else-polaroidTests */,
+				326E918F2C18494E00AAB05F /* If-else-polaroidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		326E916E2C18494C00AAB05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326E91802C18494E00AAB05F /* LaunchScreen.storyboard in Resources */,
+				326E917D2C18494E00AAB05F /* Assets.xcassets in Resources */,
+				326E917B2C18494C00AAB05F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326E91842C18494E00AAB05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326E918E2C18494E00AAB05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		326E916C2C18494C00AAB05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326E91782C18494C00AAB05F /* ViewController.swift in Sources */,
+				326E91742C18494C00AAB05F /* AppDelegate.swift in Sources */,
+				326E91762C18494C00AAB05F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326E91822C18494E00AAB05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326E918B2C18494E00AAB05F /* If_else_polaroidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326E918C2C18494E00AAB05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326E91972C18494E00AAB05F /* If_else_polaroidUITestsLaunchTests.swift in Sources */,
+				326E91952C18494E00AAB05F /* If_else_polaroidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		326E91882C18494E00AAB05F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 326E916F2C18494C00AAB05F /* If-else-polaroid */;
+			targetProxy = 326E91872C18494E00AAB05F /* PBXContainerItemProxy */;
+		};
+		326E91922C18494E00AAB05F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 326E916F2C18494C00AAB05F /* If-else-polaroid */;
+			targetProxy = 326E91912C18494E00AAB05F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		326E91792C18494C00AAB05F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326E917A2C18494C00AAB05F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		326E917E2C18494E00AAB05F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326E917F2C18494E00AAB05F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		326E91982C18494E00AAB05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		326E91992C18494E00AAB05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		326E919B2C18494E00AAB05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "If-else-polaroid/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonbon.If-else-polaroid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		326E919C2C18494E00AAB05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "If-else-polaroid/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonbon.If-else-polaroid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		326E919E2C18494E00AAB05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonbon.If-else-polaroidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/If-else-polaroid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/If-else-polaroid";
+			};
+			name = Debug;
+		};
+		326E919F2C18494E00AAB05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonbon.If-else-polaroidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/If-else-polaroid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/If-else-polaroid";
+			};
+			name = Release;
+		};
+		326E91A12C18494E00AAB05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonbon.If-else-polaroidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "If-else-polaroid";
+			};
+			name = Debug;
+		};
+		326E91A22C18494E00AAB05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonbon.If-else-polaroidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "If-else-polaroid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		326E916B2C18494C00AAB05F /* Build configuration list for PBXProject "If-else-polaroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326E91982C18494E00AAB05F /* Debug */,
+				326E91992C18494E00AAB05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326E919A2C18494E00AAB05F /* Build configuration list for PBXNativeTarget "If-else-polaroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326E919B2C18494E00AAB05F /* Debug */,
+				326E919C2C18494E00AAB05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326E919D2C18494E00AAB05F /* Build configuration list for PBXNativeTarget "If-else-polaroidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326E919E2C18494E00AAB05F /* Debug */,
+				326E919F2C18494E00AAB05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326E91A02C18494E00AAB05F /* Build configuration list for PBXNativeTarget "If-else-polaroidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326E91A12C18494E00AAB05F /* Debug */,
+				326E91A22C18494E00AAB05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 326E91682C18494C00AAB05F /* Project object */;
+}
